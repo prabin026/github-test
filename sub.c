@@ -10,6 +10,7 @@ int main() {
     scanf("%d %d", &x, &y);
 
     int result = subtract(x, y);
+    printf("After subtracting %d from %d, ", y, x);
     printf("Result: %d\n", result);
 
     return 0;
